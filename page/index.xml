@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Treks. Game Studio</title>
+    <title>Pages on Treks Games</title>
     <link>http://joshkomie.github.io/page/</link>
-    <description>Recent content in Pages on Treks. Game Studio</description>
+    <description>Recent content in Pages on Treks Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://joshkomie.github.io/page/index.xml" rel="self" type="application/rss+xml" />
@@ -15,8 +15,6 @@
       
       <guid>http://joshkomie.github.io/page/about/</guid>
       <description>&lt;p&gt;I make games in my spare time. I have special interest in procedural generation, rpgs, building, crafting, simulation, sandbox, and multiplayer games.&lt;/p&gt;
-
-&lt;p&gt;I mainly design and program, and dabble in art.&lt;/p&gt;
 </description>
     </item>
     
