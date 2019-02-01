@@ -6,8 +6,58 @@
     <description>Recent content on Treks Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Dec 2015 02:48:56 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 02:48:56 -0700</lastBuildDate>
     <atom:link href="http://joshkomie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Signal Defense</title>
+      <link>http://joshkomie.github.io/post/SignalDefense/</link>
+      <pubDate>Thu, 11 Jan 2018 02:48:56 -0700</pubDate>
+      
+      <guid>http://joshkomie.github.io/post/SignalDefense/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://ggj.s3.amazonaws.com/styles/feature_image__wide/games/screenshots/wave7.png?itok=tG7_VxVp&amp;amp;timestamp=1517375721&#34; alt=&#34;SignalDefense&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A Tower Defense/RTS hybrid made for Global Game Jam 2018. Fend off waves of zombies by building towers, turrets and more.&lt;/p&gt;
+
+&lt;h3 id=&#34;play-here-https-joshkomie-github-io-signal-defense:9e7a07dcc938de93003875d2e34bf0dc&#34;&gt;&lt;a href=&#34;https://joshkomie.github.io/signal_defense/&#34;&gt;Play Here&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pulsarcfirst</title>
+      <link>http://joshkomie.github.io/post/pulsarcfirst/</link>
+      <pubDate>Sat, 23 Jan 2016 00:12:39 -0800</pubDate>
+      
+      <guid>http://joshkomie.github.io/post/pulsarcfirst/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve realized one of the reasons I develop games is to emulate that same sense of
+excitement and adventure that you get from a great book or movie. Scripted gameplay in many ways,
+is excellent at this. But it always nags at me because that kind of gameplay isn&amp;rsquo;t &amp;lsquo;real&amp;rsquo;. I wanted to
+create those same kind of exciting sequences, but between players - no scripting, quests or cutscenes.&lt;/p&gt;
+
+&lt;p&gt;There are games that have done this before, which are usually thought of as sandbox mmos - Ultima online, SWG and EVE come to mind.
+These games are inspiration for a game that I am developing tentatively called, Pulsarc. Pulsarc is a mmo (although It will be sometime, if ever, before the &amp;lsquo;massive&amp;rsquo; in mmo is achieved.)
+Pulsarc will be focused on player-driven adventure and excitement. Here are some of the dreamed features for pulsarc&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;All structures player built and owned - Not only player housing, but player can build cities, shops, fortresses, jails, and more.
+This will be achieved through a wide variety of placable objects, each having a function of some kind.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open pvp limited - This is a delicate subject. I think open pvp is a big part of the game - because danger creates excitement - just look at movies - the characters are often attacked or
+come into dangerous situations, which creates excitement. On the flip side of the coin, it is important that the system is fair,
+and prevents mismatched killing, trolling, and other negative behaviour. This will be one of the biggest design challenges of the game.
+In the same category of pvp, features like thieving and jails are being considered.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;More than just combat - While combat will be part of the game, we want the game to be about more than just combat, with main other features being
+crafting, building, gathering, exploring, city building and maintening.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those are the core ideas. Future blog will cover various elements of the game progress, including more design, as well as programming and implementation.
+Heres a screen shot of the game in its current state.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oppose Inertia</title>
