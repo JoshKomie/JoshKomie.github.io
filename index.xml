@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Treks Games</title>
+    <title>Josh Komie Games</title>
     <link>http://joshkomie.github.io/</link>
-    <description>Recent content on Treks Games</description>
+    <description>Recent content on Josh Komie Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2018 02:48:56 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://joshkomie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rhythm Racer</title>
+      <link>http://joshkomie.github.io/post/RhythmRacer/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://joshkomie.github.io/post/RhythmRacer/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://static.jam.vg/raw/5a8/41/z/12503.png&#34; alt=&#34;RhythmRacer&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Rhythm/Racing hybrid for Ludem Dare 41
+&lt;a href=&#34;https://joshkomie.github.io/rhythm_racer/&#34;&gt;Web Version&lt;/a&gt; is available but &lt;a href=&#34;https://github.com/JoshKomie/rhythm_racer/releases/tag/1.0&#34;&gt;Windows standalone&lt;/a&gt; works a bit better.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/rhythm-racer-1&#34;&gt;Ludem Dare Page&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Signal Defense</title>
@@ -27,39 +43,6 @@
     </item>
     
     <item>
-      <title>pulsarcfirst</title>
-      <link>http://joshkomie.github.io/post/pulsarcfirst/</link>
-      <pubDate>Sat, 23 Jan 2016 00:12:39 -0800</pubDate>
-      
-      <guid>http://joshkomie.github.io/post/pulsarcfirst/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve realized one of the reasons I develop games is to emulate that same sense of
-excitement and adventure that you get from a great book or movie. Scripted gameplay in many ways,
-is excellent at this. But it always nags at me because that kind of gameplay isn&amp;rsquo;t &amp;lsquo;real&amp;rsquo;. I wanted to
-create those same kind of exciting sequences, but between players - no scripting, quests or cutscenes.&lt;/p&gt;
-
-&lt;p&gt;There are games that have done this before, which are usually thought of as sandbox mmos - Ultima online, SWG and EVE come to mind.
-These games are inspiration for a game that I am developing tentatively called, Pulsarc. Pulsarc is a mmo (although It will be sometime, if ever, before the &amp;lsquo;massive&amp;rsquo; in mmo is achieved.)
-Pulsarc will be focused on player-driven adventure and excitement. Here are some of the dreamed features for pulsarc&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;All structures player built and owned - Not only player housing, but player can build cities, shops, fortresses, jails, and more.
-This will be achieved through a wide variety of placable objects, each having a function of some kind.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open pvp limited - This is a delicate subject. I think open pvp is a big part of the game - because danger creates excitement - just look at movies - the characters are often attacked or
-come into dangerous situations, which creates excitement. On the flip side of the coin, it is important that the system is fair,
-and prevents mismatched killing, trolling, and other negative behaviour. This will be one of the biggest design challenges of the game.
-In the same category of pvp, features like thieving and jails are being considered.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;More than just combat - While combat will be part of the game, we want the game to be about more than just combat, with main other features being
-crafting, building, gathering, exploring, city building and maintening.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Those are the core ideas. Future blog will cover various elements of the game progress, including more design, as well as programming and implementation.
-Heres a screen shot of the game in its current state.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Oppose Inertia</title>
       <link>http://joshkomie.github.io/post/OpposeInertia/</link>
       <pubDate>Fri, 11 Dec 2015 02:48:56 -0700</pubDate>
@@ -70,7 +53,8 @@ Heres a screen shot of the game in its current state.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://i.imgur.com/tc7A3LK.png&#34; alt=&#34;OpposeInertia&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Oppose Inertia is an in-development 2D space combat game focused on procedurally generated content. Explore star systems, each with unique enemies, which drop new weapons, abilities, or ship schematics for you to use.&lt;/p&gt;
+&lt;p&gt;Oppose Inertia was an experiment to make a 2D space combat game with a heavy focus on procedural generation. It never turned out exactly as I&amp;rsquo;d hoped but it was a good learning experience.
+Explore star systems, each with unique enemies, which drop new weapons, abilities, or ship schematics for you to use.&lt;/p&gt;
 
 &lt;h3 id=&#34;download-here-https-dl-dropboxusercontent-com-s-fjb902p7stihes5-opposeinertia-zip-dl-0:646f372f809063de700e6cfdc5ab68e1&#34;&gt;&lt;a href=&#34;https://dl.dropboxusercontent.com/s/fjb902p7stihes5/opposeinertia.zip?dl=0&#34;&gt;Download Here&lt;/a&gt;&lt;/h3&gt;
 </description>
