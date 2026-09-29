@@ -1,0 +1,28 @@
+What's the recommended way to build a personal website these days? I plan to share game dev demos, tests, and experiments, perhaps an occaisonal dev blog, and perhaps share some music tracks or videos that I make. I've used hugo as a static site generator in the past which worked well. But open to other ideas - maybe even just writing raw html? I'm fine with a very simple, old school look.
+
+Since you're fine with an old-school look and already know Hugo, you're in a good spot. Here's how I'd think about it.
+
+Hugo is still a solid choice. It's fast, has no dependency churn (a single binary), and handles the blog part well with tags, RSS, and drafts. Since you've used it, the learning curve is zero. The main downside is that theming and templating can feel like more machinery than a simple site needs.
+
+Raw HTML is completely viable for your use case, and arguably underrated. A handful of pages plus a games/ folder of demos needs no build step, never breaks, and will still work in 20 years. The pain point is the blog: hand-maintaining an index page, RSS feed, and consistent header/footer gets tedious once you have 15+ posts. A common middle path is to start with raw HTML and add a generator later, since your content will port over easily.
+
+Lightweight alternatives to Hugo if you want something simpler:
+
+    Eleventy (11ty): minimal, flexible, plain HTML/Markdown/templates, very little opinionated theming. Good fit for "old school but with includes."
+    Zola: Hugo-like single binary, simpler templating (Tera), built-in Sass and search.
+    Jekyll: mature, but Ruby tooling can be a hassle.
+    Astro: modern and great if you want to embed interactive components, but heavier than you need.
+
+Things specific to your content:
+
+    Game demos: the key thing is that your generator lets you drop in a folder of static files untouched (Hugo's static/ directory, or 11ty's passthrough copy). WebGL/WASM/Unity/Godot web exports are just static files, so any option works. Note that some engines need specific headers (e.g. SharedArrayBuffer requires COOP/COEP), which affects your hosting choice.
+    Music and video: avoid hosting large media files yourself if you can. Embedding from YouTube, Vimeo, SoundCloud, or Bandcamp saves bandwidth and gives you streaming that just works. For a few short audio tracks, plain <audio> tags with files in your repo are fine.
+
+Hosting:
+
+    GitHub Pages, Cloudflare Pages, or Netlify are all free, deploy on git push, and handle static sites well. Cloudflare Pages and Netlify let you set custom headers (helpful for the engine issue above) and are more generous with bandwidth. Watch repo and file size limits if you host large game builds.
+    itch.io is worth considering as a companion for the games specifically: it hosts web builds well and gives you a built-in audience. You can link to those from your site or embed them in an iframe.
+
+My recommendation: if you enjoyed Hugo, just use Hugo with a minimal theme (or write your own tiny one, which is quick when you want a plain look). If you'd rather have less machinery, go raw HTML for the pages and demos, and only bring in a generator (Hugo, 11ty, or Zola) once the blog gets big enough to be annoying to maintain by hand.
+
+If you tell me which direction appeals, I can scaffold a starter for you, e.g. a minimal Hugo layout with a blog, a demos section, and a music page.
