@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Games — Josh Komie</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <title>Map Generator — Josh Komie</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    .demo-frame {
+      width: 100%;
+      height: 620px;
+      border: 1px solid var(--border);
+      display: block;
+      margin-top: 1.5rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,11 +28,15 @@
   </header>
 
   <main>
-    <h1>games</h1>
-    <p>Demos, experiments, and works in progress.</p>
+    <h1>Map Generator</h1>
+    <p>A procedural tile map generator with configurable strategies — cellular automata, BSP dungeon, perlin noise, and more. Tweak parameters and regenerate in real time.</p>
 
-    <h2><a href="/games/mapgen/">Map Generator</a></h2>
-    <p>Procedural tile map generator with configurable strategies — cellular automata, BSP dungeon, perlin noise, and more.</p>
+    <iframe
+      class="demo-frame"
+      src="/dist/demos/mapgen/"
+      title="Map Generator demo"
+      loading="lazy"
+    ></iframe>
   </main>
 
   <footer>

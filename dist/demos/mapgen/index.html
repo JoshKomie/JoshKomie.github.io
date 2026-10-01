@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map Gen Demo</title>
+  <style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#0a0a2e;--bg-panel:#0d0d3a;--fg:#7ec8e3;--fg-dim:#2e6080;--border:#1a3a5a;--border-lit:#3a8abd}body{background:var(--bg);color:var(--fg);flex-direction:column;align-items:center;gap:12px;padding:16px;font-family:Lucida Console,Courier New,monospace;display:flex}h1{letter-spacing:.25em;text-transform:uppercase;color:var(--fg);font-size:.9rem}h1:before{content:"[ "}h1:after{content:" ]"}.controls{flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:12px;display:flex}.group{background:var(--bg-panel);border:1px solid var(--border-lit);flex-direction:column;gap:8px;min-width:150px;padding:10px 12px;display:flex}.group-title{letter-spacing:.2em;text-transform:uppercase;color:var(--fg-dim);border-bottom:1px solid var(--border);padding-bottom:5px;font-size:.65rem}label{color:var(--fg-dim);flex-direction:column;gap:4px;font-size:.75rem;display:flex}.label-row{justify-content:space-between;display:flex}.val{color:var(--fg)}input[type=range]{cursor:pointer;width:100%;accent-color:var(--border-lit)}input[type=number],select{background:var(--bg);color:var(--fg);border:1px solid var(--border-lit);outline:none;width:100%;padding:5px 8px;font-family:inherit;font-size:.8rem}input[type=number]:focus,select:focus{border-color:var(--fg)}button{background:var(--bg);color:var(--fg);border:2px solid var(--border-lit);cursor:pointer;text-transform:uppercase;letter-spacing:.15em;outline:none;width:100%;padding:7px 18px;font-family:inherit;font-size:.8rem}button:hover{background:var(--bg-panel);border-color:var(--fg)}button:active{background:var(--border)}canvas{image-rendering:pixelated;display:block}</style>
+  <script type="module" crossorigin src="/dist/demos/mapgen/assets/index-D2ncpfOm.js"></script>
+</head>
+<body>
+  <h1>Map Generator</h1>
+  <div class="controls">
+
+    <div class="group">
+      <div class="group-title">Map Size</div>
+      <label>
+        <div class="label-row">Width <span class="val" id="width-val">20</span></div>
+        <input type="range" id="width" min="10" max="50" value="20" step="1">
+      </label>
+      <label>
+        <div class="label-row">Height <span class="val" id="height-val">15</span></div>
+        <input type="range" id="height" min="8" max="37" value="15" step="1">
+      </label>
+    </div>
+
+    <div class="group">
+      <div class="group-title">Strategy</div>
+      <select id="strategy"></select>
+      <div id="strategy-params"></div>
+    </div>
+
+    <div class="group">
+      <div class="group-title">Seed</div>
+      <input id="seed" type="number">
+      <button id="generate">Generate</button>
+      <button id="randomize">Randomize</button>
+    </div>
+
+  </div>
+  <canvas id="canvas" width="800" height="600"></canvas>
+</body>
+</html>
